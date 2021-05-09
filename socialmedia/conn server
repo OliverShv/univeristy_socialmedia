@@ -1,0 +1,19 @@
+<?php
+
+$servername = "172.16.11.22:3306";
+$username = "shao2_admin";
+$password = "SocialMedia123";
+$dbname = "shao2_17_socialmedia";
+
+try {
+    $conndb = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+    // set the PDO error mode to exception
+    $conndb->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+    }
+catch(PDOException $e)
+    {
+    echo "Connection failed: " . $e->getMessage();
+    }
+
+?>

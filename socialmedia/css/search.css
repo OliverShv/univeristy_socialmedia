@@ -1,0 +1,79 @@
+/* Design for search area */
+.settings-design {
+    border:solid 1px;
+    border-radius: 50px;
+    border-color: #707070;
+    width:900px;
+    height:650px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#707070;
+    margin-bottom:20px;
+    padding:24px;
+}
+
+/* Design for search results */
+.search-result{
+    width:375px;
+    height: 100px;
+    border:1px black solid;
+    border-radius: 20px;
+}
+
+/* Design for profile pics */
+.profile-pic{
+    border-radius: 50%;
+    border: solid black 1px;
+    width: 90px;
+    height:90px;
+    margin-top:5px;
+    margin-left:5px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+/* Design for buttons */
+.button-design {
+    height:60px;
+    border: solid 1px;
+    border-color: #707070;
+    border-radius: 60px;
+    width:100%;
+}
+
+/* Design for search area */
+.search-area{
+    border-right:solid black 1px;
+    height:550px;
+}
+
+/* Design changes when screen is 576px and under */
+@media all and (max-width: 576px) {
+
+    .settings-design {
+        width:360px;
+        height:400px;
+        padding:0px;
+    }
+
+    .search-area{
+        border-right:solid black 0px;
+        height:350px;
+        padding:24px;
+    }
+
+    .search-result{
+        min-width:358px;
+        width: 0px;
+        height: 100px;
+        border:1px black solid;
+        border-radius: 20px;
+    }
+
+    #searchButton:hover{
+        color:#21589c;
+        cursor: pointer;
+        user-select: none;
+       }
+
+}

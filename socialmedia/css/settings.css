@@ -1,0 +1,141 @@
+/* Design for settings area*/
+.settings-design {
+    border:solid 1px;
+    border-radius: 50px;
+    border-color: #707070;
+    width:860px;
+    height:100%;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#707070;
+    margin-bottom:20px;
+}
+
+/* changes text colour if there is a error in the update */
+.error-field{
+    color:darkred
+}
+
+/* changes text colour if there the update was successful */
+.success-field{
+    color:green
+}
+
+/* Designs for buttons */
+.button-design {
+    height:60px;
+    border: solid 1px;
+    border-color: #707070;
+    border-radius: 60px;
+    width:100%;
+}
+
+/* Design for bio */
+.textarea-design {
+    height:60px;
+    border: solid 1px;
+    border-color: #707070;
+    border-radius: 30px;
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:20px;
+}
+
+.full { 
+    min-height: 100%;
+}
+
+/* Row margin */
+.row-margin{
+    margin-bottom: 24px;
+}
+
+/* input margin */
+.input-margin{
+    margin-bottom: 0px;
+}
+
+#upload {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+ }
+
+/* Changes cursor to a pointer when hovvering on labels and buttons */
+label, button {
+    cursor: pointer;
+ }
+
+/* Design for upload button */
+.upload-button{
+    margin-bottom:12px;
+    background-color:#3FAAF2;
+    color:white;
+    text-align:center;
+    padding-top:14px
+}
+
+/* Design for upload button */
+#profileImage{
+    border-radius: 50%;
+    border: solid black 1px;
+    width: 150px;
+    height:150px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+/* Design for password area */
+#pass-area{
+    border-left:1px solid #707070;
+}
+
+/* Design changes when screen is 576px and under */
+@media all and (max-width: 576px) { 
+    a{
+        font-size: 16px;
+    }
+
+    #pass-area{
+        padding-top: 12px;
+        border-top:1px solid #707070;
+        border-left:0px solid #707070;
+    }
+
+    .settings-design {
+        border:solid 1px;
+        border-radius: 50px;
+        border-color: #707070;
+        width:860px;
+        height:100%;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#707070;
+    }
+
+    #img-div{
+        width: 100%;
+        text-align: center;
+    }
+
+    #profileImage{
+        display: inline-block;
+    }
+
+    .login-design{
+         height:600px;
+    }
+
+    .input-margin{
+        margin-bottom: 12px;
+    }
+    .row-margin{
+        margin-bottom: 12px;
+    }
+    .form-spacing{
+        padding-top: 12px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}

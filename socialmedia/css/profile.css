@@ -1,0 +1,100 @@
+/* Design for profile area */
+#profileArea{
+    width:800px;
+}
+
+/* Design for borders */
+.borderPreset{
+    border: solid 1px black;
+    color:#0C2340;
+}
+
+/* Design for prfile headings */
+.profileHeadings{
+    border-bottom: solid black 1px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Design for profile container of picture nad name */
+#profileInfo{
+    margin-bottom:20px;
+    height:300px;
+}
+
+/* Design for Bio container */
+#profileAboutMe{
+    height: 500px;
+}
+
+/* Design for profile course container */
+#profileCourse{
+    margin-bottom: 20px;
+    height: 100px;
+}
+
+/* Design for profile module container */
+#profileModules{
+    height: 365px;
+}
+
+/* Design for paragraphs*/
+p{
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:5px;
+}
+
+/* Design for profile picture */
+#profileImage{
+    border-radius: 50%;
+    border: solid black 1px;
+    width: 300px;
+    height:300px;
+    background-size:cover;
+}
+
+/* Design for profile name container*/
+#profileNameContainer{
+    position: relative;
+    height: 300px;
+    width: 530px;
+}
+
+
+/* Design for profile name */
+#profileName{
+    position: absolute;
+	bottom: 0px;
+}
+
+/* Design changes when screen is 576px and under */
+@media all and (max-width: 830px) {
+
+    #profileArea{
+        width:340px;
+    }
+
+    #profileAboutMe{
+        height: 580px;
+        margin-bottom: 20px;
+    }  
+
+    #profileNameContainer{
+        position: static;
+    }
+    
+    #profileName{
+        position: static;
+    }
+    
+    #profileInfo{
+        margin-left:25px;
+        margin-bottom:60px;
+        margin-top:25px;
+    }
+    #profileSection2{
+        margin:0px;
+    }
+
+}

@@ -1,0 +1,152 @@
+/* Design for body*/
+body {
+    background-image: url("../img/city.jpg");
+    background-color: #215d7c;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    height: 100vh;
+   }
+
+/* Sets all font*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 16px;
+}
+
+.full { 
+    min-height: 95vh;
+}
+
+/* Design for login area */
+.login-design {
+    border:solid 1px;
+    border-radius: 50px;
+    border-color: #707070;
+    width:400px;
+    height:630px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#707070;
+}
+/* Design for modules area */
+.modules-design {
+    border:solid 1px;
+    border-radius: 50px;
+    border-color: #707070;
+    width:400px;
+    height:100%;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#707070;
+
+}
+/* Design for register area */
+.register-design {
+    border:solid 1px;
+    border-radius: 50px;
+    border-color: #707070;
+    width: 860px;;
+    height: auto;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#707070;
+
+}
+/* Design for buttons */
+.button-design {
+    height:60px;
+    border: solid 1px;
+    border-color: #707070;
+    border-radius: 60px;
+    width:100%;
+}
+
+/* Design for hovering over buttons */
+.button-interact:hover {
+    border: solid 2px;
+    border-color: #707070;
+    font-weight: 550;
+}
+
+/* Design for image*/
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Design for links */
+a {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+/* Design for hovering over link */
+a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+/* Row margin */
+.row-margin{
+    margin-bottom: 24px;
+}
+
+/* input margin */
+.input-margin{
+    margin-bottom: 0px;
+}
+
+/* Form  margin */
+.form-spacing{
+    padding-top: 48px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+/* Design changes when screen is 576px and under */
+@media all and (max-width: 576px) {
+    a{
+        font-size: 16px;
+    }
+    .login-design{
+         height:600px;
+    }
+    .register-design {
+        border:solid 1px;
+        border-radius: 50px;
+        border-color: #707070;
+        width: 400px;;
+        height: auto;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#707070;
+    
+    }
+    .input-margin{
+        margin-bottom: 12px;
+    }
+    .row-margin{
+        margin-bottom: 12px;
+    }
+    .form-spacing{
+        padding-top: 12px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance:textfield;
+}
