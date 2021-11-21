@@ -1,5 +1,5 @@
 # Univeristy Social Media
-For my undergraduate dissertation for the University of Worcester I researched and developed a social media for attending students.
+
 Features include:
   1. Profile customisation.
   2. Security measures.
